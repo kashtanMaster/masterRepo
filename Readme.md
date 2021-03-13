@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Bush Phillip](https://up.htmlacademy.ru/adaptive/21/user/835337).
-* Наставник: `Алексей Хабиров`.
+* Студент: [Anonimus]
+* Наставник: `Случай Ебланович`.
 
 ---
 
