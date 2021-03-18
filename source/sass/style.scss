@@ -1,11 +1,22 @@
 // base
+@import "base/variables.scss";
 @import "base/fonts.scss";
-// @import "base/variables.scss";
 // @import "base/normalize.scss";
 @import "base/global.scss";
 @import "base/mixin.scss";
 @import "base/page.scss";
-// @import "base/visually-hidden.scss";
+@import "base/visually-hidden.scss";
 
 // blocks
 @import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/site-list.scss";
+@import "blocks/stats.scss";
+@import "blocks/advantages.scss";
+@import "blocks/news.scss";
+@import "blocks/button.scss";
+@import "blocks/reviews.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/contacts.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright.scss";

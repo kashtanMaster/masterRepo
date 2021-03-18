@@ -1,0 +1,7 @@
+.social__title {
+  display: none;
+}
+
+.social__list {
+  @include list-reset();
+}

@@ -1,0 +1,26 @@
+.reviews {
+  padding: 0 20px;
+}
+
+.reviews__item:not(:first-child) {
+  display: none;
+}
+
+.reviews__title {
+  @include heading();
+}
+
+.reviews__write {
+  display: none;
+}
+
+.reviews__author-name {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.reviews__prev,
+.reviews__next {
+  display: none;
+}

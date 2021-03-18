@@ -1,0 +1,27 @@
+.main-nav {
+  background-color: $dark-brown;
+
+  @media (min-width: $tablet-width) {
+    background-color: $basic-black;
+  }
+}
+
+.main-nav__toggle {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.main-nav__wrapper {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 768px;
+    padding: 0 64px;
+    margin: 0 auto;
+  }
+}
+
+.main-nav a {
+  color: $basic-white;
+}

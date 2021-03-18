@@ -1,0 +1,29 @@
+.advantages {
+  padding: 0 20px;
+
+  font-size: 20px;
+  color: $basic-white;
+  background-color: $header-gray;
+}
+
+.advantages__list {
+  text-align: center;
+  @include list-reset();
+}
+
+.advantages__item {
+  padding-top: 144px;
+
+  &--cool {
+    display: none;
+  }
+
+  &--price {
+    display: none;
+  }
+}
+
+.advantages__title {
+  @include heading();
+}
+

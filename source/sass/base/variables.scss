@@ -1,8 +1,9 @@
-//Colors
+ //Colors
 $light-brown: #d5c9bd;
 $main-brown: #826550;
 $dark-brown: #6a4d38;
 
+$bg-gray: #f8f5f2;
 $light-gray: #aeaeae;
 $stas-gray: #404040;
 $stas-gray2: #4e4e4e;
@@ -18,6 +19,6 @@ $basic-white: #ffffff;
 $default-font: "PT Sans Narrow", Arial, sans-serif;
 
 //Viewports
-$mobile-width-only: 320px;
-$tablet-width: 321px;
-$desctop-width: 1200px;
+$mobile-width-only: 767px;
+$tablet-width: 768px;
+$desktop-width: 1200px;

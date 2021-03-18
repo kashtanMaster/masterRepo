@@ -1,0 +1,13 @@
+.contacts {
+  text-align: center;
+}
+
+.contacts__phone {
+  width: 100%;
+  color: $basic-white;
+  border-color: #3e3e3e;
+}
+
+.contacts__phone-mobile {
+  display: none;
+}
