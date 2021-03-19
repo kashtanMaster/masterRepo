@@ -1,23 +1,49 @@
 .news {
-  padding: 0 20px;
+  padding: 30px 20px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid $line-gray;
+  margin-bottom: 30px;
 }
 
 .news__title {
   @include heading();
+  margin-bottom: 30px;
 }
 
 .news__list {
   @include list-reset()
 }
 
+.news__item {
+  display: flex;
+  align-items: flex-start;
+
+  padding-bottom: 20px;
+  border-bottom: 1px solid $line-gray;
+  margin-bottom: 14px;
+}
+
 .news__date {
+  padding: 7px 10px;
+  margin-right: 20px;
+
   font-size: 16px;
+  line-height: 16px;
+  color: $basic-white;
+
+  background-color: $basic-black;
 }
 
 .news__day {
   font-size: 30px;
   line-height: 30px;
 }
+
+.news__text {
+  margin: 0;
+}
+
+
 
 .news__to-all {
   width: 100%;

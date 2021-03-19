@@ -5,7 +5,7 @@
 }
 
 .stats__header {
-  padding: 0 20px;
+  padding: 32px 20px;
 
   text-align: center;
   color: $basic-black;
@@ -13,11 +13,21 @@
 }
 
 .stats__slogan {
+  display: block;
   @include heading();
+  margin-bottom: 20px;
+}
+
+.stats__text {
+  margin: 0;
 }
 
 .stats__legend {
+  display: block;
+  padding-top: 10px;
+  margin-bottom: -1px;
   font-size: 20px;
+  text-align: center;
   opacity: 30%;
 
   &--top {
@@ -26,11 +36,31 @@
 }
 
 .stats__item {
-  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+
+  text-align: right;
+  background-color: $body-gray;
+
+  &:first-child {
+    background-color: $stas-gray;
+  }
+
+  &:nth-child(2n) {
+    background-color: $stas-gray2;
+  }
 }
 
 .stats__value {
+  margin: 0;
   font-size: 40px;
   line-height: 40px;
   font-weight: 700;
+}
+
+.stats__field {
+  font-size: 18px;
+  line-height: 18px;
 }

@@ -4,9 +4,11 @@
 }
 
 .page-header__logo {
+  display: flex;
   height: 85px;
   background-color: $header-gray;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 
   @media (min-width: $tablet-width) {
     order: 2;
