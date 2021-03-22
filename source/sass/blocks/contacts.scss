@@ -1,0 +1,27 @@
+.contacts {
+  text-align: center;
+}
+
+.contacts__title {
+  display: block;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+}
+
+.contacts__text {
+  margin: 0;
+}
+
+.contacts__phone {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 26px;
+
+  color: $basic-white;
+  border-color: #3e3e3e;
+}
+
+.contacts__phone-mobile {
+  display: none;
+}

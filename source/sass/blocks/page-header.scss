@@ -1,0 +1,25 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header__logo {
+  display: flex;
+  width: 320px;
+  height: 85px;
+  margin: 0 auto;
+  background-color: $header-gray;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    order: 2;
+    width: auto;
+    margin: 0;
+    height: 400px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 648px;
+  }
+}

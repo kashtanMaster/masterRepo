@@ -1,0 +1,17 @@
+.page {
+  min-height: 100vh;
+
+  font-family: $default-font;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: $basic-black;
+}
+
+.page__body {
+  min-width: 320px;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: $bg-gray;
+}

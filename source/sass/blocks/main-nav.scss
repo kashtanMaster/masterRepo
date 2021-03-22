@@ -1,0 +1,37 @@
+.main-nav {
+  width: 320px;
+  margin: 0 auto;
+  background-color: $dark-brown;
+}
+
+.main-nav__toggle {
+  display: none;
+}
+
+.main-nav a {
+  color: $basic-white;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    width: auto;
+    margin: 0;
+
+    background-color: $basic-black;
+  }
+
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    width: 640px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__wrapper {
+    width: 960px;
+    background-color: $basic-black;
+  }
+}

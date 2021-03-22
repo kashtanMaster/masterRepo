@@ -1,27 +1,25 @@
-//Colors
-$basic_black: #000000;
-$basic_black2: #111111;
-$basic_white: #ffffff;
-$basic_green: #68b738;
-$basic_green_2: #5eaa2f;
-$basic_grey: #f2f2f2;
-$basic_grey_2: #ebebeb;
-$basic_grey_3: #e6e6e6;
-$basic-grey_4: #fff9f9;
-$basic-grey_5: #eaeaea;
-$special_grey: #cdcdcd;
-$special_grey_2: #666666;
-$special_grey_3: #d9d9d9;
-$special_grey_4: #dcdcdc;
-$special_dark_grey: #444444;
-$special_dark_grey_2: #222222;
-$status_error: #ff8282;
+ //Colors
+$light-brown: #d5c9bd;
+$main-brown: #826550;
+$dark-brown: #6a4d38;
+
+$line-gray: #e5ddd5;
+$bg-gray: #f8f5f2;
+$light-gray: #aeaeae;
+$stas-gray: #404040;
+$stas-gray2: #4e4e4e;
+$body-gray: #353535;
+$footer-gray: #292929;
+$header-gray: #242424;
+
+$basic-black: #000000;
+
+$basic-white: #ffffff;
 
 //Fonts
-$default-font: "Oswald", "Arial", sans-serif;
-$custom-font: "Arial", sans-serif;
+$default-font: "PT Sans Narrow", Arial, sans-serif;
 
 //Viewports
-$tablet-width: 768px;
-$desktop-width: 1440px;
 $mobile-width-only: 767px;
+$tablet-width: 768px;
+$desktop-width: 1200px;

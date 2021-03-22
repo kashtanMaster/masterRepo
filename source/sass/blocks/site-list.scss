@@ -1,0 +1,33 @@
+.site-list {
+  @include list-reset();
+
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.site-list__item {
+  text-transform: uppercase;
+  background-color: $main-brown;
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    width: 570px;
+  }
+
+  .site-list__item {
+    background-color: transparent;
+  }
+
+  .site-list__item a {
+    display: block;
+    padding: 10px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 780px;
+  }
+}
